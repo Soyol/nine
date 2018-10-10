@@ -425,8 +425,25 @@ a.back-red:hover{background-color: #c1024a;}
     line-height: 36px;
 }
 
+.home-item a h2{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.home-item:hover  h2{
+    color: #39C3B6;
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
 .empty-section{
-    min-height: 453px; 
+    min-height: 433px; 
+    border: 10px solid transparent;
 
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -447,8 +464,6 @@ a.back-red:hover{background-color: #c1024a;}
 }
 
 .empty-section:hover{
-    opacity: .7;
-
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -468,8 +483,16 @@ a.back-red:hover{background-color: #c1024a;}
     background: #39C3B6;
 }
 
+.empty-section-one:hover{
+    border-color: #FDB719;
+}
+
 .empty-section-two{
     background: #FDB719;
+}
+
+.empty-section-two:hover{
+    border-color: #39C3B6;
 }
 
 
