@@ -15,7 +15,7 @@
 
 html,
 body {
-    background-color: #ffffff;
+    background-color: #FDFFFC;
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.004);
     -moz-osx-font-smoothing: grayscale;
@@ -420,7 +420,7 @@ a.back-red:hover{background-color: #c1024a;}
 }
 
 .home-item h2{
-    margin-right: 20px;
+    margin-right: 40px;
     font-size: 28px;
     line-height: 36px;
 }
